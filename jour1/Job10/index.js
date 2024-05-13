@@ -1,0 +1,10 @@
+const { URL } = require('url');
+const urlString = "https://www.google.com&search=nodejs";
+const parsedUrl = new URL(urlString);
+const protocol = parsedUrl.protocol;
+console.log('Protocole est :', protocol);
+const hostname = parsedUrl.hostname;
+const searchParams = parsedUrl.searchParams.toString();
+parsedUrl.hostname = "www.laplateforme.io";
+parsedUrl.searchParams.append('newParam', 'value');
+console.log('Nouvelle URL :', parsedUrl.href);
