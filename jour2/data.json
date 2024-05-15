@@ -1,0 +1,14 @@
+[
+    {
+      "id": "1",
+      "title": "Faire les courses",
+      "description": "Acheter des fruits, du lait et du pain",
+      "status": "À faire"
+    },
+    {
+      "id": "2",
+      "title": "Répondre aux e-mails",
+      "description": "Répondre aux e-mails en attente",
+      "status": "En cours"
+    }
+  ]
